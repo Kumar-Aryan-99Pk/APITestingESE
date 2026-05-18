@@ -1,0 +1,361 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/* GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  font-family: "Poppins", sans-serif;
+
+  background: #eaecd4;
+
+  color: #1e293b;
+
+  min-height: 100vh;
+}
+
+
+/* CONTAINER */
+
+.container {
+
+  width: 92%;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 30px 0;
+}
+
+
+/* CARD */
+
+.card {
+
+  background: white;
+
+  padding: 25px;
+
+  margin-top: 25px;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.06);
+
+  transition: 0.3s ease;
+}
+
+
+.card:hover {
+
+  transform: translateY(-0px);
+
+  box-shadow:
+    0 14px 30px rgba(0,0,0,0.08);
+}
+
+
+/* HEADINGS */
+
+h1 {
+
+  font-size: 34px;
+
+  margin-bottom: 10px;
+
+  color: #0f172a;
+}
+
+
+h2 {
+
+  margin-bottom: 18px;
+
+  color: #1e293b;
+}
+
+
+h3 {
+
+  color: #0f172a;
+
+  margin-bottom: 10px;
+}
+
+
+/* INPUTS */
+
+input,
+select,
+textarea {
+
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 12px;
+
+  border-radius: 12px;
+
+  border: 1px solid #dbe4ee;
+
+  background: #f8fafc;
+
+  font-size: 15px;
+
+  transition: 0.3s ease;
+
+  outline: none;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+
+  border-color: #6366f1;
+
+  background: white;
+
+  box-shadow:
+    0 0 0 4px rgba(99,102,241,0.15);
+}
+
+
+/* BUTTONS */
+
+button {
+
+  margin-top: 15px;
+
+  padding: 13px 20px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(
+    135deg,
+    #6366f1,
+    #8b5cf6
+  );
+
+  color: white;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+
+  width: 100%;
+}
+
+
+button:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 10px rgba(99,102,241,0.35);
+}
+
+
+button:active {
+
+  transform: scale(0.98);
+}
+
+
+/* EMPLOYEE CARD */
+
+.employee-card {
+
+  margin-top: 18px;
+
+  padding: 18px;
+
+  border-radius: 16px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  transition: 0.3s ease;
+}
+
+
+.employee-card:hover {
+
+  transform: translateY(-4px);
+
+  border-color: #c7d2fe;
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.05);
+}
+
+
+.employee-card p {
+
+  margin-top: 8px;
+
+  color: #475569;
+}
+
+
+/* LINKS */
+
+a {
+
+  color: #6366f1;
+
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+
+a:hover {
+
+  text-decoration: underline;
+}
+
+
+/* AUTH PAGES */
+
+.auth-card {
+
+  max-width: 450px;
+
+  margin: 60px auto;
+}
+
+
+/* AI RESPONSE */
+
+pre {
+
+  white-space: pre-wrap;
+
+  word-break: break-word;
+
+  margin-top: 20px;
+
+  background: #0f172a;
+
+  color: #e2e8f0;
+
+  padding: 18px;
+
+  border-radius: 14px;
+
+  overflow-x: auto;
+
+  line-height: 1.6;
+}
+
+
+/* LOGOUT BUTTON */
+
+.logout-btn {
+
+  background: linear-gradient(
+    135deg,
+    #ef4444,
+    #dc2626
+  );
+}
+
+
+.logout-btn:hover {
+
+  box-shadow:
+    0 10px 20px rgba(239,68,68,0.3);
+}
+
+
+/* SEARCH BUTTON */
+
+.search-btn {
+
+  background: linear-gradient(
+    135deg,
+    #0ea5e9,
+    #2563eb
+  );
+}
+
+
+.search-btn:hover {
+
+  box-shadow:
+    0 10px 10px rgba(37,99,235,0.3);
+}
+
+
+/* AI BUTTON */
+
+.ai-btn {
+
+  background: linear-gradient(
+    135deg,
+    #14b8a6,
+    #0f766e
+  );
+}
+
+
+.ai-btn:hover {
+
+  box-shadow:
+    0 10px 10px rgba(20,184,166,0.3);
+}
+
+
+/* DELETE BUTTON */
+
+.delete-btn {
+
+  background: linear-gradient(
+    135deg,
+    #f43f5e,
+    #be123c
+  );
+}
+
+
+.delete-btn:hover {
+
+  box-shadow:
+    0 10px 20px rgba(244,63,94,0.3);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .container {
+
+    width: 95%;
+  }
+
+  h1 {
+
+    font-size: 28px;
+  }
+
+}
